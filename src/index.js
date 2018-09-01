@@ -6,5 +6,5 @@ import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
 import { robots } from './robots';
 
-ReactDOM.render(<App  robots={robots}/>, document.getElementById('root'));
+ReactDOM.render( <App  robots={robots}/>, document.getElementById('root'));
 registerServiceWorker();
